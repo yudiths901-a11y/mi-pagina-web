@@ -8,12 +8,15 @@
 </head>
 <body class="bg-gray-50 text-gray-800">
 
-  <!-- Portada -->
-  <header class="bg-indigo-700 text-white text-center py-16 px-4">
-    <h1 class="text-4xl font-bold">Johanny Altagracia Mejía</h1>
-    <p class="mt-2 text-xl">Pastora y profeta ungida</p>
-    <p class="italic mt-2">Escuela Profética de Liberación “Parados en la Brecha”</p>
-    <p class="mt-1">✨ Fundado el 4 de octubre de 2021</p>
+  <!-- Portada con Imagen -->
+  <header class="relative bg-indigo-800 text-white text-center">
+    <img src="https://picsum.photos/1600/500" alt="Ministerio" class="w-full h-96 object-cover opacity-70">
+    <div class="absolute inset-0 flex flex-col items-center justify-center px-4">
+      <h1 class="text-4xl md:text-5xl font-bold">Johanny Altagracia Mejía</h1>
+      <p class="mt-2 text-lg md:text-2xl">Pastora y profeta ungida</p>
+      <p class="italic mt-2">Escuela Profética de Liberación “Parados en la Brecha”</p>
+      <p class="mt-1">✨ Fundado el 4 de octubre de 2021</p>
+    </div>
   </header>
 
   <!-- Biografía -->
@@ -28,7 +31,7 @@
   </section>
 
   <!-- Escuela Profética -->
-  <section class="bg-white max-w-4xl mx-auto py-12 px-6">
+  <section class="bg-white max-w-4xl mx-auto py-12 px-6 shadow rounded-xl">
     <h2 class="text-2xl font-bold text-indigo-700 mb-4">🎓 Escuela Profética de Liberación</h2>
     <p class="mb-4">Formando y capacitando líderes para el mañana. Ofrecemos capacitación en:</p>
     <ul class="list-disc pl-6 space-y-2">
@@ -40,7 +43,7 @@
   </section>
 
   <!-- Mentoría -->
-  <section class="bg-gray-100 max-w-4xl mx-auto py-12 px-6">
+  <section class="bg-gray-100 max-w-4xl mx-auto py-12 px-6 rounded-xl mt-6">
     <h2 class="text-2xl font-bold text-indigo-700 mb-4">🤝 Mentoría</h2>
     <p class="mb-4">Acompañamiento y formación personalizada en:</p>
     <ul class="grid grid-cols-1 sm:grid-cols-2 gap-2">
@@ -56,7 +59,7 @@
   </section>
 
   <!-- Talleres -->
-  <section class="bg-white max-w-4xl mx-auto py-12 px-6">
+  <section class="bg-white max-w-4xl mx-auto py-12 px-6 shadow rounded-xl mt-6">
     <h2 class="text-2xl font-bold text-indigo-700 mb-4">🛠️ Talleres</h2>
     <p class="mb-4">Espacios de crecimiento y sanidad integral:</p>
     <ul class="list-disc pl-6 space-y-2">
@@ -68,14 +71,30 @@
   </section>
 
   <!-- Libros -->
-  <section class="bg-gray-100 max-w-4xl mx-auto py-12 px-6">
+  <section class="bg-gray-100 max-w-4xl mx-auto py-12 px-6 rounded-xl mt-6">
     <h2 class="text-2xl font-bold text-indigo-700 mb-4">📚 Libros</h2>
     <p><span class="font-semibold">La oración efectiva de guerra espiritual</span><br>
     Un recurso de edificación y fortaleza para la vida espiritual.</p>
   </section>
 
+  <!-- Donaciones -->
+  <section class="bg-white max-w-4xl mx-auto py-12 px-6 text-center shadow rounded-xl mt-6">
+    <h2 class="text-2xl font-bold text-indigo-700 mb-4">💖 Donaciones</h2>
+    <p class="mb-4">Tu apoyo nos ayuda a continuar con la obra del Reino de Dios.</p>
+    <div class="space-y-4">
+      <div class="bg-gray-100 p-4 rounded-lg">
+        <p class="font-semibold">Banco Popular</p>
+        <p>Cuenta Corriente: <span class="text-indigo-700">123-456-789</span></p>
+      </div>
+      <div class="bg-gray-100 p-4 rounded-lg">
+        <p class="font-semibold">Banco BHD León</p>
+        <p>Cuenta de Ahorro: <span class="text-indigo-700">987-654-321</span></p>
+      </div>
+    </div>
+  </section>
+
   <!-- Contacto -->
-  <section class="bg-white max-w-4xl mx-auto py-12 px-6 text-center">
+  <section class="bg-gray-100 max-w-4xl mx-auto py-12 px-6 text-center rounded-xl mt-6">
     <h2 class="text-2xl font-bold text-indigo-700 mb-4">📩 Contacto</h2>
     <p class="mb-4">Solicita más información sobre mentorías, talleres o capacitaciones.</p>
     <form class="space-y-4 max-w-md mx-auto">
@@ -87,7 +106,7 @@
   </section>
 
   <!-- Footer -->
-  <footer class="bg-indigo-700 text-white text-center py-6 mt-10">
+  <footer class="bg-indigo-800 text-white text-center py-6 mt-10">
     <p>&copy; 2025 Johanny Altagracia Mejía | Ministerio Profético “Parados en la Brecha”</p>
   </footer>
 
